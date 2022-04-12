@@ -13,13 +13,9 @@ html {
 }
 
 @media screen and (min-width: 751px) {
-  body {
-    background-image: url(/images/bg-desktop.svg);
-    background-repeat: no-repeat;
-  }
   .huddle-container {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
   }
   .huddle-contents {
     padding: 0 1.5rem;
@@ -55,6 +51,8 @@ html {
 
 body {
   background-color: #674baf;
+  background-image: url(/images/bg-desktop.svg);
+  background-repeat: no-repeat;
   font-family: "Open Sans", sans-serif;
   color: #fff;
 }

@@ -1,11 +1,11 @@
 @media screen and (min-width: 751px) {
-  body {
-    background-image: url(/images/bg-desktop.svg);
-    background-repeat: no-repeat;
-  }
+  // body {
+  //   background-image: url(/images/bg-desktop.svg);
+  //   background-repeat: no-repeat;
+  // }
 
   .huddle-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
   }
 
   .huddle-contents {
